@@ -6,7 +6,7 @@
         <div class="center-sign">
             <div class="">
                 <div class="card card-header card-primary bg-info">
-                    <p class="card-title text-center text-dark">Acceso al Sistema admin</p>
+                    <p class="card-title text-center">Acceso al Sistema</p>
                     <h1 class="display-3 position-absolute text-left font-weight-bold" style="left: 90%; margin-top: -35px; color: rgba(255,255,255,.1);">6</h1>
                 </div>
                 <div class="card-body">
