@@ -11,13 +11,11 @@
             <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
         </div>
     </div>
-    <!-- start: search & user box -->
     <div class="header-right">
         <span class="separator"></span>
         <div id="userbox" class="userbox">
             <a href="#" data-toggle="dropdown">
                 <figure class="profile-picture">
-                    {{-- <img src="{{asset('img/%21logged-user.jpg')}}" alt="Joseph Doe" class="rounded-circle" data-lock-picture="img/%21logged-user.jpg" /> --}}
                     <div class="border rounded-circle text-center" style="width: 25px;"><i class="fas fa-user"></i></div>
                 </figure>
                 <div class="profile-info" data-lock-name="{{ \Auth::getUser()->email }}" data-lock-email="{{ \Auth::getUser()->email }}">
@@ -41,5 +39,4 @@
             </div>
         </div>
     </div>
-    <!-- end: search & user box -->
 </header>

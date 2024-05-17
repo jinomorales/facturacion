@@ -15,7 +15,7 @@
                             :class="{'has-danger': errors.number}"
                             class="form-group">
                             <label class="control-label">RUC</label>
-                            <!-- <el-input :disabled="form.is_update" v-model="form.number" :maxlength="11" dusk="number">
+                            <!-- <el-input :disabled="form.is_update" v-model="form.number" :maxlength="13" dusk="number">
                                 <el-button :disabled="form.is_update" type="primary" slot="append" :loading="loading_search" icon="el-icon-search" @click.prevent="searchSunat">
                                     SUNAT
                                 </el-button>
