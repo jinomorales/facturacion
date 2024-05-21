@@ -13,7 +13,10 @@ use App\CoreFacturalo\Services\Models\Company;
 class Sunat
 {
     const URL_CONSULT = 'http://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias';
+    // const URL_CONSULT = 'https://webservices.ec/api/ruc/';
     const URL_RANDOM = 'http://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/captcha?accion=random';
+
+    // $httpheader = ['Authorization: Bearer mGh7yVXTpYQjUMkv4DtTa658qZm195LArsPY4gF2'];
 
     /**
      * @var string
@@ -44,13 +47,13 @@ class Sunat
      */
     public function get($ruc)
     {
-        if (strlen($ruc) !== 11) {
-            $this->error = 'Ruc debe tener 11 dígitos';
+        if (strlen($ruc) !== 13) {
+            $this->error = 'Ruc debe tener 13 dígitos';
 
             return false;
         }
         $random = $this->getRandom();
-        $url = self::URL_CONSULT."?accion=consPorRuc&nroRuc=$ruc&numRnd=$random&tipdoc=1";
+        $url = self::URL_CONSULT.$ruc;
 
         $dic = $this->getValuesFromUrl($url);
 

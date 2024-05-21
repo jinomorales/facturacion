@@ -8,7 +8,7 @@
             </h2>
             <ol class="breadcrumbs">
                 <li class="active">
-                    <span>Dash</span>
+                    <span>Daasdasdasadsddsh</span>
                 </li>
             </ol>
         </header>
@@ -36,7 +36,7 @@
                                 {{ year }}
                             </div>
                             <div class="col-10 font-weight-semibold text-right">
-                                Comprobantes generados por mes
+                                Comprobantes por mes asdeqeqe3232342
                             </div>
                         </div>
                     </div>

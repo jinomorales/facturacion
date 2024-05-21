@@ -53,17 +53,17 @@
         methods: {
             changeIdentityDocumentTypeId() {
                 this.buttonText = null;
-                if(this.identity_document_type_id === '6') {
-                    this.maxLength = 11;
-                    this.buttonText = 'SUNAT';
+                if(this.identity_document_type_id === '04') {
+                    this.maxLength = 13;
+                    this.buttonText = 'BUSCAR';
                     this.resource = this.resource_base+'/ruc';
                 }
-                if(this.identity_document_type_id === '1') {
-                    this.maxLength = 8;
-                    this.buttonText = 'RENIEC';
+                if(this.identity_document_type_id === '05') {
+                    this.maxLength = 10;
+                    this.buttonText = 'BUSCAR';
                     this.resource = this.resource_base+'/dni';
                 }
-                if(this.identity_document_type_id !== '6' && this.identity_document_type_id !== '1') {
+                if(this.identity_document_type_id !== '06' && this.identity_document_type_id !== '04') {
                     this.maxLength = 20
                 }
             },
