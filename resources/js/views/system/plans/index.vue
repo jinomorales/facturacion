@@ -4,11 +4,11 @@
             <div class="col-md-4">
                 <h5 class="card-title fw-semibold mb-4">Card</h5>
                 <div class="card">
-                    <img
+                    <!--<img
                         src="../assets/images/products/s4.jpg"
                         class="card-img-top"
                         alt="..."
-                    />
+                    />-->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
