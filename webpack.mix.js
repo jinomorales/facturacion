@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 /*
  |--------------------------------------------------------------------------
@@ -18,6 +19,15 @@ mix.js('resources/js/app.js', 'public/js')
    .version();
 
 mix.webpackConfig({
+    plugins: [
+        new BrowserSyncPlugin({
+          host: 'facturacion.test',
+          port: 8080,
+          proxy: 'facturacion.test:8080/' // Reemplaza con tu servidor backend
+        }, {
+          reload: true
+        })
+      ],
     resolve: {
         alias: {
             '@components': path.resolve(__dirname, 'resources/js/components'),
