@@ -8,7 +8,7 @@
             </h2>
             <ol class="breadcrumbs">
                 <li class="active">
-                    <span>Panel Inicial</span>
+                    <span>Daasdasdasadsddsh</span>
                 </li>
             </ol>
         </header>
