@@ -7,11 +7,11 @@
     <title>Panel</title>
     <link rel="shortcut icon" type="image/png" href="{{ asset('theme/new/images/logos/favicon.png') }}" />
     <link rel="stylesheet" href="{{ asset('theme/new/css/styles.min.css') }}" />
-    <link
+    <!--<link
         href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css"
-        rel="stylesheet">
+        rel="stylesheet">-->
 
-        {{-- <link href="{{ asset('theme/new/css/app.css') }}" rel="stylesheet"> --}}
+    <link href="{{ asset('theme/new/all.min.css') }}" rel="stylesheet">
 
 </head>
 
