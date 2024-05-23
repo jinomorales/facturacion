@@ -11,7 +11,7 @@
         href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css"
         rel="stylesheet">
 
-        <link href="{{ asset('theme/new/css/app.css') }}" rel="stylesheet">
+        {{-- <link href="{{ asset('theme/new/css/app.css') }}" rel="stylesheet"> --}}
 
 </head>
 
