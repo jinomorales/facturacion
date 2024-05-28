@@ -1,17 +1,5 @@
 <template>
   <div>
-    <header class="page-header">
-      <h2>
-        <a href="/dashboard">
-          <i class="fa fa-list-alt"></i>
-        </a>
-      </h2>
-      <ol class="breadcrumbs">
-        <li class="active">
-          <span>Panel Inicial de clientes</span>
-        </li>
-      </ol>
-    </header>
     <div class="row">
       <div class="col-lg-8 d-flex align-items-strech">
         <div class="card w-100">

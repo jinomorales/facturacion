@@ -12,6 +12,9 @@
         rel="stylesheet">-->
 
     <link href="{{ asset('theme/new/all.min.css') }}" rel="stylesheet">
+    <link type="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link href="{{ asset('themes/new/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -42,7 +45,7 @@
                             <a class="sidebar-link {{ Route::is('system.dashboard') ? 'active' : '' }}"
                                 href="{{ route('system.dashboard') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-chart-line fa-lg"></i>
+                                    <i class="fa-solid fa-chart-line fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
@@ -55,7 +58,7 @@
                             <a class="sidebar-link {{ Route::is('system.multi-users.index') ? 'active' : '' }}"
                                 href="{{ route('system.multi-users.index') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-users fa-lg"></i>
+                                <i class="fa-solid fa-users-line fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Multi Usuarios</span>
                             </a>
@@ -68,7 +71,7 @@
                             <a class="sidebar-link {{ Route::is('system.plans.index') ? 'active' : '' }}"
                                 href="{{ route('system.plans.index') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-cart-flatbed-boxes fa-lg"></i>
+                                <i class="fa-solid fa-clipboard-list fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Planes</span>
                             </a>
@@ -81,7 +84,7 @@
                             <a class="sidebar-link {{ Route::is('system.accounting.index') ? 'active' : '' }}"
                                 href="{{ route('system.accounting.index') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-calculator-simple fa-lg"></i>
+                                <i class="fa-solid fa-calculator fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Contabilidad</span>
                             </a>
@@ -90,7 +93,7 @@
                             <a class="sidebar-link {{ Route::is('system.list-reports') ? 'active' : '' }}"
                                 href="{{ route('system.list-reports') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-chart-pie-simple-circle-dollar fa-lg"></i>
+                                <i class="fa-solid fa-file-invoice-dollar fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Reportes</span>
                             </a>
@@ -103,7 +106,7 @@
                             <a class="sidebar-link {{ Route::is('system.information') ? 'active' : '' }}"
                                 href="{{ route('system.information') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-circle-info fa-lg"></i>
+                                <i class="fa-solid fa-circle-info fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Informacioón</span>
                             </a>
@@ -112,7 +115,7 @@
                             <a class="sidebar-link {{ Route::is('system.configuration.index') ? 'active' : '' }}"
                                 href="{{ route('system.configuration.index') }}" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-gear fa-lg"></i>
+                                <i class="fa-solid fa-sliders fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Configuración</span>
                             </a>
@@ -120,7 +123,7 @@
                         <li class="sidebar-item">
                             <a class="sidebar-link" href="{{ url('logs') }}" target="_BLANK" aria-expanded="false">
                                 <span>
-                                    <i class="fa-light fa-bug fa-lg"></i>
+                                <i class="fa-solid fa-bug fa-lg"></i>
                                 </span>
                                 <span class="hide-menu">Logs</span>
                             </a>
